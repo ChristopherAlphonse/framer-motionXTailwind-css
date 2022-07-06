@@ -7,6 +7,7 @@ const App = () => {
     y: 0,
   });
   // console.log(mousePos);
+
   const [cursorVar, setCursorVar] = useState("default");
 
   useEffect(() => {
